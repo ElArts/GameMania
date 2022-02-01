@@ -44,6 +44,12 @@ header{
 }
 .posicao-texto{
     justify-content: flex-end;
-    height: 1350px;
-    
+    height: 1200px;
+}
+.posicao-texto a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
 }
