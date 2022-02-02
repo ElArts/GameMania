@@ -29,7 +29,6 @@ header{
     width: 880px;
     display: flex;
     justify-content: space-between;
-
 }
 .banner{
     height: 800px;
@@ -37,19 +36,34 @@ header{
     background-repeat: no-repeat;
     background-size: cover;
 }
-.texto-banner{
+.texto-banner h1{
     color: white;
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
+    margin-bottom: 40px;
 }
 .posicao-texto{
     justify-content: flex-end;
     height: 1200px;
+    text-align: center;
 }
-.posicao-texto a{
+.texto-banner a{
     color: white;
+    background-color: red;
     text-decoration: none;
-    text-transform: uppercase;
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
+    padding: 25px;
+}
+.promocoes{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 300px;
+}
+.promocoes-dois{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 300px;
 }
