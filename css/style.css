@@ -29,9 +29,10 @@ header{
     width: 880px;
     display: flex;
     justify-content: space-between;
+    margin-left: 50px;
 }
 .banner{
-    height: 1000px;
+    height: 920px;
     background-image: url(../img/image\ 1.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -44,7 +45,7 @@ header{
 }
 .posicao-texto{
     justify-content: flex-end;
-    height: 1500px;
+    height: 1350px;
     text-align: center;
 }
 .texto-banner a{
@@ -56,19 +57,72 @@ header{
     padding: 25px;
 }
 .promocoes{
-    background-image: url(../img/hardwarre.jpg);
+    background-image: url(../img/newbackground.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 .promocoes img{
-    width: 500px;
+    width: 700px;
+    display: flex;
+    justify-content: center;
 }
 .texto-promocoes h2{
-    color: black;
+    color: white;
     font-size: 70px;
+    font-family: 'Roboto', sans-serif;
 }
 .texto-promocoes p{
-    color:black;
-    font-size: 50px;
+    color:white;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 30px;
+}
+.texto-promocoes a{
+    font-size: 30px;
+    color: white;
+    background-color: red;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    padding: 20px;
+}
+.barras{
+       width: 50px;
+       display: none;
+   }
+   .posicionamento-header{
+       position:relative;
+   }
+@media screen and (max-width: 1200px) {
+   .container-grid{
+       width: 90%;
+   } 
+   .menu a{
+       font-size:16px;
+   }
+   
+   .logo{
+       width: 200px;
+   }
+}
+@media screen and (max-width: 768px) {
+    .container-grid{
+        width: 90%;
+    }
+    .barras{
+        display: inline-block;
+    }
+    .menu{
+        display: none;
+        flex-direction: column;
+        width: 250px;
+        position:absolute;
+        top:0;
+        right: 60px;
+        background-color: gray;
+    }
+    .menu a{
+        text-align: center;
+        padding: 15px;
+    }
 }
