@@ -32,7 +32,7 @@ header{
     margin-left: 50px;
 }
 .banner{
-    height: 920px;
+    height: 737px;
     background-image: url(../img/image\ 1.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -45,7 +45,7 @@ header{
 }
 .posicao-texto{
     justify-content: flex-end;
-    height: 1350px;
+    height: 1200px;
     text-align: center;
 }
 .texto-banner a{
@@ -63,9 +63,10 @@ header{
     background-position: center;
 }
 .promocoes img{
-    width: 700px;
+    width: 680px;
     display: flex;
     justify-content: center;
+    margin-top: 10px;
 }
 .texto-promocoes h2{
     color: white;
@@ -90,9 +91,80 @@ header{
        width: 50px;
        display: none;
    }
-   .posicionamento-header{
+.posicionamento-header{
        position:relative;
    }
+.cadastro-promocoes{
+       background-color: red;
+       background-size: cover;
+       display: flex;
+       justify-content: center;
+   }
+.cadastro{
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    display: flex;
+    justify-content: center;
+    margin-left: 450px;
+    margin-top: 10px;
+   }
+   .cadastro a{
+       color: black;
+   }
+   .cadastro-promocoes img{
+       width: 100px;
+   }
+   .secao-itens{
+       display: flex;
+       justify-content: space-between;
+       background: url(..//img/newbackground.png);
+       background-size: 1903px;
+       background-position: cover;
+       background-repeat: no-repeat;
+       font-family:'Roboto' sans-serif;
+       color:white;
+   }
+   .content-itens{
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: space-between;
+       margin-top: 20px;
+       margin-bottom: 20px;
+   }
+   .carditens img{
+       width:350px;
+       box-shadow: 0px 0px 10px whitesmoke;
+   }
+   .carditens h3{
+       padding-top: 10px;
+       padding-bottom: 20px;
+   }
+   footer{
+       background-color: black;
+       color:white;
+   }
+   .rodape{
+       display: flex;
+       justify-content: space-between;
+       padding: 16px;
+   }
+   .links-footer a{
+       color:white;
+       text-decoration: none;
+   }
+   .links-footer{
+       display: flex;
+       justify-content: space-between;
+       width: 400px;
+    }
+    .redes-sociais a{
+        display: flex;
+        justify-content: space-between;
+    }
+    .about-us{
+        margin-left: 250px;
+        margin-right: 350px;
+    }
 @media screen and (max-width: 1200px) {
    .container-grid{
        width: 90%;
@@ -111,6 +183,7 @@ header{
     }
     .barras{
         display: inline-block;
+        width: 70px;
     }
     .menu{
         display: none;
