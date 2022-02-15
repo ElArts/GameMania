@@ -32,16 +32,23 @@ header{
     margin-left: 50px;
 }
 .banner{
-    height: 737px;
+    height: 738px;
     background-image: url(../img/image\ 1.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 .texto-banner h1{
     color: white;
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
     margin-bottom: 50px;
+}
+#carrosel img{
+    display: none;
+}
+.banner-ativo{
+    display: flex;
 }
 .posicao-texto{
     justify-content: flex-end;
@@ -125,19 +132,19 @@ header{
        color:white;
    }
    .content-itens{
-       display: flex;
-       flex-wrap: wrap;
-       justify-content: space-between;
-       margin-top: 20px;
-       margin-bottom: 20px;
-   }
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+}
    .carditens img{
-       width:350px;
+       width:300px;
        box-shadow: 0px 0px 10px whitesmoke;
    }
    .carditens h3{
-       padding-top: 10px;
-       padding-bottom: 20px;
+       font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 20px;
    }
    footer{
        background-color: black;
@@ -197,5 +204,8 @@ header{
     .menu a{
         text-align: center;
         padding: 15px;
+    }
+    .menu-ativo{
+        display: flex;
     }
 }
