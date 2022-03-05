@@ -183,7 +183,27 @@ header{
    .logo{
        width: 200px;
    }
+   .texto-banner {
+       width:600px;
+       margin-bottom: 130px;
+       font-size: medium;
+   }
+    .promocoes{
+       background-image: none;
+       background-color: black;
+    }
+    .secao-itens{
+        background-image: none;
+        background-color: black;
+    }
+    .secao-itens h2{
+        margin-top:20px;
+        margin-bottom: 20px;
+        background-color: red;
+    }
+    
 }
+
 @media screen and (max-width: 768px) {
     .container-grid{
         width: 90%;
