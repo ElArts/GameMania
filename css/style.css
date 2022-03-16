@@ -232,22 +232,7 @@ header{
         display: flex;
     }
 }
-.cadastro h2{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: -449px;
-    font-size: 22px;
-}
 .about-us{
     display: flex;
-    justify-content: column;
-    margin-left: -250px;
-    margin-right: -350px;
-}
-.about-us h2{
-    display: flex;
-    justify-content:flex-start;
-    width: 500px;
-    margin-top: 100px;
+    
 }
