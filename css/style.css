@@ -236,3 +236,19 @@ header{
     display: flex;
     
 }
+.cadastro-promocoes{
+    display: flex;
+    padding-right: 350px;
+}
+.cadastro-promocoes img{
+    width: 200px;
+}
+.redes-sociais{
+    display: flex;
+    font-size: 15px;
+    padding: 5px;
+}
+.formas-de-pagamento{
+    padding-right: 5px;
+    margin-left:-10px;
+}
